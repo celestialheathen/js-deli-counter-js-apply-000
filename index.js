@@ -1,6 +1,7 @@
-function takeANumber(deli,name) {
-    deli.push(name);
-    console.log(`Welcome, ${name}. You are number ${(deli.length)} in line.`);
+function takeANumber(deli) {
+    let position = 1;
+    console.log(`Welcome, You are number ${position} in line.`);
+    position++;
 }
 
 function nowServing(deli) {
