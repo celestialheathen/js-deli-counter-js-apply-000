@@ -1,4 +1,4 @@
-function takeANumber(deli) {
+function takeANumber() {
     let position = 1;
     console.log(`Welcome, You are number ${position} in line.`);
     position++;
