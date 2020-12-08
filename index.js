@@ -1,13 +1,11 @@
-const samsDeli = [];
-
 function takeANumber(deli,name) {
     deli.push(name);
-    console.log(`Welcome ${name}. You are number ${(deli.indexOf(name) + 1)}`);
+    console.log(`Welcome, ${name}. You are number ${(deli.length)} in line.`);
 }
 
 function nowServing(deli) {
     if (deli.length === 0) {
-        console.log("There is nobody waiting to be served.");
+        console.log("There is nobody waiting to be served!");
     } else {
         console.log(`Now serving ${deli[0]}`);
         deli.shift();
